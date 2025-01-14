@@ -20,4 +20,4 @@ elif number == "6":
 elif number == "7":
     print(math.sqrt(int(a)),math.sqrt(int(b)))
 else:
-    print("Invalid Option!")
+    print("Invalid Option!")  
