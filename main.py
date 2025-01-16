@@ -1,13 +1,5 @@
-# Operator Overloading
-
-class Dog:
-
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+test_file = open("test1.txt" , "w")
 
 
-roger = Dog('Roger' , 10)
-syd = Dog('Syd' , 9)
 
-print(roger - syd)
+test_file.close()
