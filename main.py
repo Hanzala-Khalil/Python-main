@@ -1,5 +1,3 @@
-test_file = open("test1.txt" , "w")
-
-
-
-test_file.close()
+chess=[["0","1"],["2","3"]]
+chess[0][1] = chess[1][0]
+print(chess)
