@@ -1,3 +1,5 @@
+from enter_move import Move 
+
 BOARD = [
     ["♜",
      "♞",
@@ -64,12 +66,8 @@ BOARD = [
      "♘",
      "♖"]]
 board=[[" " for i in range(8)] for j in range(8)]
-for i in range(8):
-    for j in range(8):
-        board[i][j]=BOARD[i][j]
-def chess_board():
-    
 
+def print_board():
     print("       A        B        C        D        E        F        G        H    " )
     for i,n in enumerate(range(8,0,-1)):
         print("    -------- -------- -------- -------- -------- -------- -------- --------" )
@@ -83,5 +81,6 @@ def chess_board():
             print("   |    ", end=" ")
         print("   |")
     print("    -------- -------- -------- -------- -------- -------- -------- --------")
-    print("       A        B        C        D        E        F        G        H    \n") 
+    print("       A        B        C        D        E        F        G        H    \n")
+    Move() 
 
